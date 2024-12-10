@@ -9,3 +9,5 @@ Ce fichier `myrules.nft` doit être enregistré dans `/etc/network/interfaces` p
 ![Capture d'écran 2024-12-10 191713](https://github.com/user-attachments/assets/34f9812b-058c-4b00-ae42-df6f6b3cb532)
 
 Attention, à chaque modification dans la table nft, il faut enregistrer et redémarrer le réseau : `systemctl restart networking.service`  
+
+Pour info : La commande nft -f /chemin/vers/le/fichier est utilisée pour charger et appliquer un fichier de configuration de règles pour nftables.
